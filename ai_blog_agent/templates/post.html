@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} | NightWriter AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.5);
+            --accent: #38bdf8;
+            --text-main: #f1f5f9;
+            --text-dim: #94a3b8;
+            --glass: rgba(255, 255, 255, 0.05);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            font-family: 'Outfit', sans-serif;
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+
+        .back-nav {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .back-btn {
+            color: var(--accent);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 600;
+        }
+
+        article {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border-radius: 30px;
+            margin-bottom: 4rem;
+            border: 1px solid var(--glass);
+        }
+
+        .meta {
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            line-height: 1.2;
+            margin-bottom: 2rem;
+            color: white;
+        }
+
+        /* Markdown Styling */
+        .content h2 { margin-top: 3rem; margin-bottom: 1rem; color: var(--accent); font-family: 'Playfair Display', serif; font-size: 2rem; }
+        .content h3 { margin-top: 2rem; margin-bottom: 0.5rem; color: white; }
+        .content p { margin-bottom: 1.5rem; color: var(--text-main); font-size: 1.1rem; }
+        .content ul, .content ol { margin-left: 1.5rem; margin-bottom: 1.5rem; }
+        .content li { margin-bottom: 0.5rem; }
+        .content hr { border: 0; border-top: 1px solid var(--glass); margin: 3rem 0; }
+        .content blockquote { border-left: 4px solid var(--accent); padding-left: 1.5rem; font-style: italic; color: var(--text-dim); margin-bottom: 2rem; }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            article { padding: 1.5rem; border-radius: 0; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="back-nav">
+        <a href="/" class="back-btn">&larr; Back to Dashboard</a>
+    </nav>
+
+    <article>
+        <div class="meta">{{ date }}</div>
+        <h1>{{ title }}</h1>
+        <div class="content">
+            {{ content | safe }}
+        </div>
+    </article>
+
+    <footer style="text-align: center; padding-bottom: 4rem; color: var(--text-dim);">
+        &copy; 2024 NightWriter AI
+    </footer>
+</body>
+</html>

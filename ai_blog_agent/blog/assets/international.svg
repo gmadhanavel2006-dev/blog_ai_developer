@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">International news illustration</title>
+  <desc id="desc">A global geopolitics illustration with a world map, shipping lane, and oil tanker.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="55%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="route" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="640" rx="36" fill="url(#bg)"/>
+  <rect x="56" y="56" width="1088" height="528" rx="28" fill="#0b1220" fill-opacity="0.55" stroke="#93c5fd" stroke-opacity="0.18"/>
+
+  <circle cx="790" cy="315" r="162" fill="none" stroke="#60a5fa" stroke-opacity="0.16" stroke-width="10"/>
+  <circle cx="790" cy="315" r="114" fill="none" stroke="#60a5fa" stroke-opacity="0.22" stroke-width="8"/>
+  <circle cx="790" cy="315" r="64" fill="none" stroke="#60a5fa" stroke-opacity="0.28" stroke-width="6"/>
+  <path d="M640 315h300" stroke="#f8fafc" stroke-opacity="0.12" stroke-width="8" stroke-linecap="round"/>
+  <path d="M790 148v334" stroke="#f8fafc" stroke-opacity="0.12" stroke-width="8" stroke-linecap="round"/>
+  <path d="M680 212c52-42 164-42 220 0" fill="none" stroke="url(#route)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M664 324c62 58 210 58 270 0" fill="none" stroke="url(#route)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M686 432c48 40 154 40 194 0" fill="none" stroke="url(#route)" stroke-width="10" stroke-linecap="round"/>
+
+  <circle cx="908" cy="228" r="18" fill="#f59e0b"/>
+  <circle cx="626" cy="390" r="16" fill="#22c55e"/>
+  <circle cx="858" cy="446" r="14" fill="#f97316"/>
+  <path d="M892 188c12 22 12 38 0 56-12-18-12-34 0-56z" fill="#f59e0b"/>
+  <path d="M182 386h258l-26-88H218z" fill="#f8fafc" fill-opacity="0.10"/>
+  <path d="M210 302h205l-20-42H230z" fill="#38bdf8" fill-opacity="0.9"/>
+  <path d="M228 302h170" stroke="#f8fafc" stroke-opacity="0.3" stroke-width="8"/>
+  <path d="M250 270h126" stroke="#f8fafc" stroke-opacity="0.3" stroke-width="8"/>
+
+  <path d="M660 468c58-18 118-18 176 0" fill="none" stroke="#f8fafc" stroke-opacity="0.25" stroke-width="14" stroke-linecap="round"/>
+  <path d="M694 454h110l28 18h-166z" fill="#f8fafc" fill-opacity="0.82"/>
+  <rect x="736" y="424" width="56" height="22" rx="11" fill="#f59e0b"/>
+  <rect x="770" y="404" width="82" height="40" rx="12" fill="#38bdf8"/>
+  <rect x="856" y="410" width="42" height="28" rx="12" fill="#f8fafc" fill-opacity="0.9"/>
+  <text x="702" y="488" fill="#cbd5e1" font-size="18" font-family="Arial, sans-serif">Hormuz route</text>
+
+  <text x="94" y="142" fill="#f8fafc" font-size="48" font-family="Arial, sans-serif" font-weight="700">International</text>
+  <text x="94" y="188" fill="#cbd5e1" font-size="24" font-family="Arial, sans-serif">Geopolitics, shipping routes, and world tension</text>
+</svg>

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\mathi\Downloads\Blogagent\ai_blog_agent\dashboard.py", line 17, in <module>
+    templates = Jinja2Templates(directory=TEMPLATES_DIR, auto_reload=True, cache_size=0)
+TypeError: Jinja2Templates.__init__() got an unexpected keyword argument 'auto_reload'

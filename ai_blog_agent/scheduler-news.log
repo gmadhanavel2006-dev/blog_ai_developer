@@ -1,0 +1,18 @@
+
+==================================================
+India & Tamil Nadu Daily News Agent
+==================================================
+Mode: Fully Autonomous
+Status: Scheduler Active
+
+[INFO] This system runs in two cycles:
+1. Night Job (01:00 AM): Collects India and Tamil Nadu headlines and writes a daily news draft.
+2. Morning Job (Every hour): Checks for new drafts and asks for your approval.
+
+[System] Initializing first workflow cycle...
+
+--- DAILY NEWS JOB TRIGGERED (21:47) ---
+
+==================================================
+STARTING DAILY INDIA AND TAMIL NADU NEWS WORKFLOW
+==================================================

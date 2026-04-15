@@ -1,0 +1,113 @@
+
+==================================================
+🌙 NightWriter AI: Autonomous Blog System 🌙
+==================================================
+Mode: Fully Autonomous
+Status: Scheduler Active
+
+[INFO] This system runs in two cycles:
+1. Night Job (01:00 AM): Researches topics and writes deep-dive drafts.
+2. Morning Job (Every hour): Checks for new drafts and asks for your approval.
+
+[System] Initializing first workflow cycle...
+
+--- NIGHT JOB TRIGGERED (21:01) ---
+
+==================================================
+🌙 STARTING NIGHT WORKFLOW (1:00 AM) 🌙
+==================================================
+[Research Agent] Finding trending topics...
+[Research Agent] Could not fetch live topics; using fallback topics.
+✅ Topic Selected: AI in 2024
+✅ Content Generated (97 chars)
+✅ Content Polished
+✅ Monetization Added
+[Formatter Agent] Converting to Markdown...
+[Formatter Agent] Saved draft to: blog\drafts\AI_in_2024_20260410.md
+✅ FINAL: Saved to blog\drafts\AI_in_2024_20260410.md
+==================================================
+
+[System] Workflow cycle complete. Entering standby mode + morning check...
+
+--- MORNING JOB TRIGGERED (21:01) ---
+
+--- MORNING UPDATE ---
+Your blog is ready: AI_in_2024_20260410.md
+
+=== PREVIEW ===
+---
+title: AI in 2024
+date: 2026-04-10
+agent: NightWriter
+---
+
+# AI in 2024
+
+This is a mock blog post content for testing purposes because MOCK_MODE is enabled.
+
+(Mock SEO Polish Applied)
+
+---
+
+### 🛒 Recommended Resources
+- [Mock Tool 1](https://example.com/tool1)
+- [Mock Tool 2](https://example.com/tool2)
+================
+
+Do you want to publish it?
+1. Yes
+2. No
+[Publisher Agent] Non-interactive terminal detected. Blog kept in drafts.
+
+--------------------------------------------------
+Scheduler Active - Press Ctrl+C to stop.
+--------------------------------------------------
+
+--- MORNING JOB TRIGGERED (22:01) ---
+
+--- MORNING UPDATE ---
+Your blog is ready: AI_in_2024_20260410.md
+
+=== PREVIEW ===
+---
+title: AI in 2024
+date: 2026-04-10
+agent: NightWriter
+---
+
+# AI in 2024
+
+This is a mock blog post content for testing purposes because MOCK_MODE is enabled.
+
+(Mock SEO Polish Applied)
+
+---
+
+### 🛒 Recommended Resources
+- [Mock Tool 1](https://example.com/tool1)
+- [Mock Tool 2](https://example.com/tool2)
+================
+
+Do you want to publish it?
+1. Yes
+2. No
+[Publisher Agent] Non-interactive terminal detected. Blog kept in drafts.
+
+--- MORNING UPDATE ---
+Your blog is ready: Building_a_lean_team_before_raising_big_with_Narada_CEO_David_Park_20260410.md
+
+=== PREVIEW ===
+---
+title: Building a lean team before raising big with Narada CEO David Park
+date: 2026-04-10
+agent: NightWriter
+---
+
+# Building a Lean Team: The Secret to Startup Success Before Big Funding
+The startup landscape is filled with stories of overnight successes and record-breaking funding rounds, but behind every successful venture lies a crucial, often overlooked step: building a lean team. For Narada CEO David Park, the journey to success has been marked by a deep understanding of the importance...
+================
+
+Do you want to publish it?
+1. Yes
+2. No
+[Publisher Agent] Non-interactive terminal detected. Blog kept in drafts.
